@@ -284,7 +284,7 @@ var UI;
             }
 
             if (typeof(msg) !== 'undefined') {
-                $D('noVNC-control-bar').setAttribute("class", klass);
+                $D('noVNC_control_bar').setAttribute("class", klass);
                 $D('noVNC_status').innerHTML = msg;
             }
 
@@ -1274,11 +1274,11 @@ var UI;
         },
 
         setBarPosition: function() {
-            $D('noVNC-control-bar').style.top = (window.pageYOffset) + 'px';
+            $D('noVNC_control_bar').style.top = (window.pageYOffset) + 'px';
             $D('noVNC_mobile_buttons').style.left = (window.pageXOffset) + 'px';
 
             var vncwidth = $D('noVNC_container').style.offsetWidth;
-            $D('noVNC-control-bar').style.width = vncwidth + 'px';
+            $D('noVNC_control_bar').style.width = vncwidth + 'px';
         }
 
 /* ------^-------

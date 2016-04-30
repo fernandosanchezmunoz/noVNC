@@ -77,13 +77,13 @@ html {
   position: relative;
 }
 
-.noVNC-buttons-left {
+.noVNC_buttons_left {
   float: left;
   z-index: 1;
   position: relative;
 }
 
-.noVNC-buttons-right {
+.noVNC_buttons_right {
   float:right;
   right: 0px;
   z-index: 2;
@@ -278,7 +278,7 @@ html {
 }
 
 /* Control bar */
-#noVNC-control-bar {
+#noVNC_control_bar {
   position:fixed;
   
   display:block;
@@ -427,11 +427,11 @@ html {
   font-size: 180px;
 }
 
-.noVNC-buttons-left {
+.noVNC_buttons_left {
   padding-left: 10px;
 }
 
-.noVNC-buttons-right {
+.noVNC_buttons_right {
   padding-right: 10px;
 }
 
@@ -469,10 +469,10 @@ html {
   .noVNC_status_button {
     font-size: 10px;
   }
-  .noVNC-buttons-left {
+  .noVNC_buttons_left {
     padding-left: 0px;
   }
-  .noVNC-buttons-right {
+  .noVNC_buttons_right {
     padding-right: 0px;
   }
   /* collapse the extra keys on lower resolutions */
