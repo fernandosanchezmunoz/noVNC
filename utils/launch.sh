@@ -24,7 +24,8 @@ usage() {
 NAME="$(basename $0)"
 REAL_NAME="$(readlink -f $0)"
 HERE="$(cd "$(dirname "$REAL_NAME")" && pwd)"
-PORT=$([[ $PORT0 != "" ]] && $PORT0 || "6080") #use $PORT0 if defined
+#PORT=$([ -z $PORT0 ] && "6080" || $PORT0)
+PORT=${PORT0:-"6080"} #use $PORT0 if defined
 VNC_DEST="localhost:5900"
 CERT=""
 WEB=""
